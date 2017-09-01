@@ -1,0 +1,22 @@
+{
+  "name": "infiniityr/alf-model-laravel",
+  "description": "Alfresco Model For Laravel. Eloquent like.",
+  "homepage": "https://github.com/infiniityr/alf-model-laravel",
+  "license": "Apache 2.0",
+  "authors": [
+    {
+      "name": "infiniityr",
+      "email": "valentin.lecompte@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/support": "~5.1",
+    "laravel/framework": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Infiniityr\\Alfresco\\": "src/"
+    }
+  }
+}
