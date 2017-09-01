@@ -104,10 +104,10 @@ return [
     |
     */
     'macros' => [
-        \App\Alfresco\Alfresco::class => [
+        \Infiniityr\Alfresco\Alfresco::class => [
 
         ],
-        \App\Alfresco\AlfrescoFile::class => [
+        \Infiniityr\Alfresco\AlfrescoFile::class => [
             'nodeRef' => [
                 'node.nodeRef',
                 'metadata.parent.nodeRef',
@@ -133,7 +133,7 @@ return [
                 'node.permissions.user',
             ]
         ],
-        \App\Alfresco\AlfrescoDirectory::class => [
+        \Infiniityr\Alfresco\AlfrescoDirectory::class => [
             'nodeRef' => [
                 'node.nodeRef',
                 'metadata.parent.nodeRef'
@@ -143,7 +143,7 @@ return [
                 'node.properties.cm:name'
             ]
         ],
-        \App\Alfresco\AlfrescoSearch::class => [
+        \Infiniityr\Alfresco\AlfrescoSearch::class => [
 
         ],
 
