@@ -10,7 +10,7 @@ This package is to add a model for Alfresco with the eloquent syntax for Laravel
 
 The next required step is to add the service provider to config/app.php :
 ```
-    Infiniityr\Alfresco\AlfrescoProvider::class,
+    Infiniityr\Alfresco\AlfrescoServiceProvider::class,
 ```
 
 And copy the package config to your local config with the publish command:

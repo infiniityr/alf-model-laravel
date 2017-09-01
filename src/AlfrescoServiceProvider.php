@@ -1,15 +1,14 @@
 <?php
 
-namespace Infiniityr\Providers;
+namespace Infiniityr\Alfresco;
 
-use Infiniityr\Alfresco\Alfresco;
 use Infiniityr\Alfresco\API\AlfrescoProcessor;
 use Infiniityr\Alfresco\API\ConnectionAPI;
 use Infiniityr\Alfresco\API\ConnectionResolver;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
 
-class AlfrescoProvider extends ServiceProvider
+class AlfrescoServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
